@@ -1,22 +1,22 @@
-body{
+body {
   background-color: lightblue;
-  text-align: center; 
+  text-align: center;
 }
-.atm-container{
+.atm-container {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.main-heading{
+.main-heading {
   width: 62%;
   font-size: 50px;
-  font-family: 'Anton', sans-serif;
-font-family: 'Trispace', sans-serif;
-color: maroon;
-box-shadow:  10px 5px 5px black;
+  font-family: "Anton", sans-serif;
+  font-family: "Trispace", sans-serif;
+  color: maroon;
+  box-shadow: 10px 5px 5px black;
 }
 
-.user-info{
+.user-info {
   background-color: red;
   padding: 1%;
   color: whitesmoke;
@@ -25,19 +25,17 @@ box-shadow:  10px 5px 5px black;
   border: 2px solid red;
   width: 225px;
 }
-.user-id{
+.user-id {
   height: 30px;
   margin: 5px;
-   outline: none;
+  outline: none;
 }
-.save-id-div{
+.save-id-div {
   display: flex;
   margin-top: 10px;
-
 }
 
-
-.log-in-btn{
+.log-in-btn {
   height: 40px;
   width: 97%;
   margin: 5px;
@@ -52,87 +50,86 @@ box-shadow:  10px 5px 5px black;
   outline: none;
 }
 
-.forget-id-div{
+.forget-id-div {
   display: flex;
   flex-direction: column;
   text-align: start;
 }
-.link{
+.link {
   color: whitesmoke;
   text-decoration: none;
 }
-.hidden-content{
+.hidden-content {
   display: none !important;
 }
 
 /* USER ACCOUNT PAGE */
 
-.hide-visibility{
+.hide-visibility {
   visibility: hidden;
 }
 
-.account-container{
+.account-container {
   display: flex;
   flex-direction: column;
-  background-color: lemonchiffon ;
+  background-color: lemonchiffon;
 }
 
-.account-container{
+.account-container {
   width: 74%;
   height: 700px;
 }
 
-.welcome-msg{
+.welcome-msg {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
-.div1{
+.div1 {
   display: flex;
   flex-direction: row;
-  
 }
-.profile-pic{
+.profile-pic {
   width: 90px;
   border-radius: 45px;
   margin-top: 3.5px;
   margin-left: 7.5px;
 }
-.hello-user{
+.hello-user {
   width: 350px;
   font-size: 30px;
-  font-family: 'Anton', sans-serif;
-font-family: 'Lobster', cursive;
-color:gray;
- 
+  font-family: "Anton", sans-serif;
+  font-family: "Lobster", cursive;
+  color: gray;
 }
-.sign-out{
+.sign-out {
   width: 15%;
 }
 
-.question-div{
+.question-div {
 }
 
-.question{
+.question {
   font-size: 35px;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 700;
 }
 
-.button-containers{
+.button-containers {
   display: flex;
   flex-direction: column;
 }
 
-.div2{
+.div2 {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-
-#btn1,#btn2,#btn3{
+#btn1,
+#btn2,
+#btn3 {
   width: 35%;
   height: 50px;
   margin: 5%;
@@ -142,26 +139,29 @@ color:gray;
   font-weight: bold;
 }
 
-.btn-question1,.btn-question2,.btn-question3{
+.btn-question1,
+.btn-question2,
+.btn-question3 {
   font-size: 22px;
-  font-family: 'Source Sans Pro', sans-serif;
-
+  font-family: "Source Sans Pro", sans-serif;
 }
 
-#deposit-field,#withdraw-field{
+#deposit-field,
+#withdraw-field {
   width: 120px;
   height: 30px;
   padding: 5px;
   margin: 2.5px;
 }
 
-#withdraw-field,#deposit-field{
+#withdraw-field,
+#deposit-field {
   outline: none;
   width: 120px;
   height: 37px;
 }
 
-.continue-btn{
+.continue-btn {
   background-color: darkblue;
   color: whitesmoke;
   font-weight: 800;
