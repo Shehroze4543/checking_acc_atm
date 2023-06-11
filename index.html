@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Trispace:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>MY ATM MACHINE</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="atm-container">
+      <h1 class="main-heading">Welcome to the Bank of Utopia</h1>
+
+      <!--------------------- USER LOGIN PAGE --------------------------->
+      <div class="user-info reveal-content">
+        <input type="text" class="user-id user-name" placeholder="User ID" />
+        <input
+          type="password"
+          class="user-id user-pwd"
+          placeholder="Password"
+        />
+        <div class="save-id-div">
+          <input type="checkbox" name="Save User ID" id="save-id-box" />
+          <label for="Save User ID" id="save-id-box"> Save User ID</label>
+        </div>
+        <button class="log-in-btn log-in-button">Log In</button>
+        <div class="forget-id-div">
+          <p class="forgot-pwd">
+            <a href="" class="link">Forgot ID/Password?</a>
+          </p>
+          <p class="security-help">
+            <a href="" class="link"
+              >Security & Help &nbsp &nbsp &nbsp &nbsp &nbsp Enroll</a
+            >
+          </p>
+        </div>
+      </div>
+
+      <!-----------------USER 1 MAIN SCREEN PAGE  -------------------->
+
+      <div class="account-container hidden-content">
+        <div class="welcome-msg">
+          <div class="div1">
+            <img
+              src="https://i.pinimg.com/originals/1b/34/39/1b3439272614867efae272ed60b08697.jpg"
+              alt=""
+              class="profile-pic"
+            />
+            <h3 class="hello-user">Welcome, Michael Scott</h3>
+          </div>
+          <button class="sign-out log-in-btn">Sign out</button>
+        </div>
+
+        <div class="question-div">
+          <p class="question">What would you like to do today?</p>
+        </div>
+
+        <div class="button-containers">
+          <div class="div2">
+            <button class="balance-inq" id="btn1" onclick="option_btn()">
+              Balance Inquiry
+            </button>
+            <label class="hide-visibility btn-question1">
+              Your Account Balance is
+              <div class="screen"></div>
+            </label>
+          </div>
+          <div class="div2">
+            <button class="deposit" id="btn2" onclick="option_btn2()">
+              Deposit
+            </button>
+            <label class="hide-visibility btn-question2">
+              How much do you want to deposit today?
+              <div class="screen2">
+                <input
+                  type="text"
+                  name="screen2"
+                  id="deposit-field"
+                  placeholder="Enter amount here"
+                />
+                <button class="continue-btn" onclick="add_deposit()">
+                  Continue
+                </button>
+              </div>
+            </label>
+          </div>
+          <div class="div2">
+            <button class="withdrawal" id="btn3" onclick="option_btn3()">
+              Withdrawal
+            </button>
+            <label class="hide-visibility btn-question3">
+              How much do you want to withdraw today?
+              <div class="screen3">
+                <input
+                  type="text"
+                  name="screen3"
+                  id="withdraw-field"
+                  placeholder="Enter amount here"
+                />
+                <button class="continue-btn" onclick="withdraw()">
+                  Continue
+                </button>
+              </div>
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js" async defer></script>
+  </body>
+</html>

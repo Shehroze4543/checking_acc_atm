@@ -1,0 +1,170 @@
+body{
+  background-color: lightblue;
+  text-align: center; 
+}
+.atm-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-heading{
+  width: 62%;
+  font-size: 50px;
+  font-family: 'Anton', sans-serif;
+font-family: 'Trispace', sans-serif;
+color: maroon;
+box-shadow:  10px 5px 5px black;
+}
+
+.user-info{
+  background-color: red;
+  padding: 1%;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid red;
+  width: 225px;
+}
+.user-id{
+  height: 30px;
+  margin: 5px;
+   outline: none;
+}
+.save-id-div{
+  display: flex;
+  margin-top: 10px;
+
+}
+
+
+.log-in-btn{
+  height: 40px;
+  width: 97%;
+  margin: 5px;
+  margin-top: 10px;
+  border: 1px solid white;
+  background-color: red;
+  color: whitesmoke;
+  font-size: 20px;
+  padding-top: 8px;
+  padding-bottom: 15px;
+  cursor: pointer;
+  outline: none;
+}
+
+.forget-id-div{
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+.link{
+  color: whitesmoke;
+  text-decoration: none;
+}
+.hidden-content{
+  display: none !important;
+}
+
+/* USER ACCOUNT PAGE */
+
+.hide-visibility{
+  visibility: hidden;
+}
+
+.account-container{
+  display: flex;
+  flex-direction: column;
+  background-color: lemonchiffon ;
+}
+
+.account-container{
+  width: 74%;
+  height: 700px;
+}
+
+.welcome-msg{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.div1{
+  display: flex;
+  flex-direction: row;
+  
+}
+.profile-pic{
+  width: 90px;
+  border-radius: 45px;
+  margin-top: 3.5px;
+  margin-left: 7.5px;
+}
+.hello-user{
+  width: 350px;
+  font-size: 30px;
+  font-family: 'Anton', sans-serif;
+font-family: 'Lobster', cursive;
+color:gray;
+ 
+}
+.sign-out{
+  width: 15%;
+}
+
+.question-div{
+}
+
+.question{
+  font-size: 35px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+}
+
+.button-containers{
+  display: flex;
+  flex-direction: column;
+}
+
+.div2{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+#btn1,#btn2,#btn3{
+  width: 35%;
+  height: 50px;
+  margin: 5%;
+  background-color: dodgerblue;
+  color: whitesmoke;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.btn-question1,.btn-question2,.btn-question3{
+  font-size: 22px;
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+#deposit-field,#withdraw-field{
+  width: 120px;
+  height: 30px;
+  padding: 5px;
+  margin: 2.5px;
+}
+
+#withdraw-field,#deposit-field{
+  outline: none;
+  width: 120px;
+  height: 37px;
+}
+
+.continue-btn{
+  background-color: darkblue;
+  color: whitesmoke;
+  font-weight: 800;
+  width: 120px;
+  height: 30px;
+}
